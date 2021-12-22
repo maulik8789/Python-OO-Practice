@@ -25,7 +25,7 @@ class SpecialWordFinder(WordFinder):
     def __init__(self):
         super().__init__()
 
-    def get_special_word():
+    def get_random_word():
         for _ in itertools.repeat([]):
             rand_word = random.choice(list(super().file))
             super().file.seek(0)
